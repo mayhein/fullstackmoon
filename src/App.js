@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+import moon from './fullmoon.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={moon} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          shoot for the moon
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <form>
+          <input type="email" placeholder="enter your email" />
+          <button className="submit_email" type="submit">stay in the loop</button>
+        </form>
       </header>
     </div>
   );
