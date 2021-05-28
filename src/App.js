@@ -7,12 +7,12 @@ function App() {
       <header className="App-header">
         <img src={moon} className="App-logo" alt="logo" />
         <p>
-          shoot for the moon
+          coming soon on strawberry moon
         </p>
-        <form>
+        {/* <form>
           <input type="email" placeholder="enter your email" />
           <button className="submit_email" type="submit">stay in the loop</button>
-        </form>
+        </form> */}
       </header>
     </div>
   );
